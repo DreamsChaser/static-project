@@ -29,5 +29,7 @@ public class StaticVariable {
         System.out.println("SV.temp:"+StaticVariable.temp+" sv1.temp:"+sv1.temp+" sv2.temp:"+sv2.temp);
         sv2.addTemp();
         System.out.println("SV.temp:"+StaticVariable.temp+" sv1.temp:"+sv1.temp+" sv2.temp:"+sv2.temp);
+        sv1.temp = 1;
+        System.out.println("SV.temp:"+StaticVariable.temp+" sv1.temp:"+sv1.temp+" sv2.temp:"+sv2.temp);
     }
 }
